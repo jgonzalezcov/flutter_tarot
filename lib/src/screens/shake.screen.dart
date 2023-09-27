@@ -17,7 +17,7 @@ class _ShakeScreenState extends State<ShakeScreen> {
   late AudioPlayer _audioPlayer;
   late SensorStateProvider sensorProvider;
 
-  final double shakeThreshold = 15.0; // Sensibilidad de detección de movimiento
+  final double shakeThreshold = 10.0; // Sensibilidad de detección de movimiento
   Timer? _shakeTimer;
   bool shake = false;
   final AudioPlayer _soundPlayer = AudioPlayer();
